@@ -7,14 +7,14 @@
 
 /* COLORS
         - defaut body text #eee
-        - h1            #eee
-        - h2            #10c45c
+        - h1            #9c751d
+        - h2            #9c751d
         - h3            #242424
 
         - Button
         - Button : hover
 
-        - Icon          #19e619
+        - Icon          #9c751d
 
         - Border
 
@@ -29,13 +29,12 @@
 /* CSS DIRECTORY
         1. GLOBAL
         2. HEADER
-        3. PRODUITS
-        4. FAMILLE DE CHOCOLATS
-        5. GALERIES PHOTOS
-        6. AVIS CLIENTS
-        7. PACKS
-        8. CONTACT
-        9. FOOTER
+        3. CHOCOLAT BLANC
+        4. CHOCOLAT AU LAIT
+        5. AVIS CLIENTS
+        6. CHOCOLAT NOIR
+        7. FOOTER
+
 
 */
 
@@ -71,7 +70,7 @@ h2 {
     font-size: 250%;
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 
@@ -94,6 +93,7 @@ h3 {
 
 h4 {
     margin-top: 10px;
+    margin-left: -180px;
 }
 
 
@@ -109,11 +109,12 @@ section {
 }
 
 
-/* 1. HEADER
+/* 2. HEADER
 ===================================== */
 
 .navbar {
     text-transform: uppercase;
+    background-color: #695d43;
 }
 
 
@@ -123,7 +124,6 @@ section {
     background-position: center;
     background-size: cover;
     max-width: 100%;
-    
 }
 
 
@@ -133,6 +133,243 @@ section {
     background-position: center;
     background-size: cover;
     padding: 80px;
+    border-radius: 10px; 
+}
+
+
+.home-title p {
+    color: white;
+    background-position: center;
+    margin-top: 6%;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+.home-title h3 {
+    color: white;
+    font-size: 100%;
+}
+
+
+/* 3. CHOCOLAT BLANC
+===================================== */
+
+
+.chocoblanc {
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
-    
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.chocoblanc p {
+    color: #000000;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+
+.produits-icon {
+    font-size: 34px;
+    color: #9c751d;
+}
+
+
+.chocoblanc h4 {
+    margin-left: 1px;
+}
+
+
+.chocoblanc h3 {
+margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+.bg-chocoblanc h5 {
+    text-align: center;
+    color: #ff3939;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+
+/* 4. CHOCOLAT AU LAIT
+===================================== */
+
+
+.bg-chocolait {
+    background-color: #ead4b6;
+}
+
+
+.chocolait {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.chocolait p {
+    color: #000000;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+
+.produits-icon {
+    font-size: 34px;
+    color: #9c751d;
+}
+
+
+.chocolait h4 {
+    margin-left: 1px;
+}
+
+
+.chocolait h3 {
+margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+.bg-chocolait h5 {
+    text-align: center;
+    color: #ff3939;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: -10px;
+    margin-left: 100px;
+}
+
+
+
+/* 5. AVIS CLIENTS
+===================================== */
+
+
+.clients {
+    background-image: url(../Images/Galeries/blockquote.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.clients h2 {
+    color: white;
+}
+
+
+.clients h2:after {
+    background-color: white;
+}
+
+
+blockquote {
+    padding: 10px;
+    font-style: italic;
+    line-height: 130%;
+    color: #ffffff;
+}
+
+
+blockquote:before {
+    content: "\201C";
+    font-size: 600%;
+    font-family: "Sanchez", serif;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    color: #9c751d;
+}
+
+
+cite {
+    font-size: 90%;
+    display: block;
+    margin-top: 30px;
+}
+
+
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+/* 6. CHOCOLAT NOIR
+===================================== */
+
+
+.choconoir {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.choconoir p {
+    color: #000000;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+
+.produits-icon {
+    font-size: 34px;
+    color: #9c751d;
+}
+
+
+.choconoir h4 {
+    margin-left: 1px;
+}
+
+
+.choconoir h3 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+.bg-choconoir h5 {
+    text-align: center;
+    color: #ff3939;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: -10px;
+    margin-left: 100px;
+}
+
+
+/* 7. FOOTER
+===================================== */
+
+
+footer {
+    background-color: black;
+    color: white;
+    height: 60px;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+
+.copyright {
+    text-align: center;
+}
+
+
+.copyright a {
+    color: white;
 }
