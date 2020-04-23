@@ -1,0 +1,138 @@
+/* DOCUMENT INFORMATION
+        - Document: chocolat thème
+        - Version: 1.0.0
+        - Auteur : François
+
+*/
+
+/* COLORS
+        - defaut body text #eee
+        - h1            #eee
+        - h2            #10c45c
+        - h3            #242424
+
+        - Button
+        - Button : hover
+
+        - Icon          #19e619
+
+        - Border
+
+*/
+
+/* FONTS 
+        - Default        LATO
+        - Subtitle       SANCHEZ
+
+*/
+
+/* CSS DIRECTORY
+        1. GLOBAL
+        2. HEADER
+        3. PRODUITS
+        4. FAMILLE DE CHOCOLATS
+        5. GALERIES PHOTOS
+        6. AVIS CLIENTS
+        7. PACKS
+        8. CONTACT
+        9. FOOTER
+
+*/
+
+
+/* 1. GLOBAL
+===================================== */
+
+html {
+    background-color: #fff;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lato', 'Arial', 'Sans-serif';
+    color: #9c751d;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 300;
+    word-spacing: 8px;
+}
+
+
+h1 {
+    color: #9c751d;
+}
+
+
+h2 {
+    color: #9c751d;
+    font-size: 250%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #9c751d;
+    width: 100px;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+h3 {
+    color: #242424;
+    font-size: 160%;
+}
+
+
+h4 {
+    margin-top: 10px;
+}
+
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+
+section {
+    padding: 30px 0 60px 0;
+}
+
+
+/* 1. HEADER
+===================================== */
+
+.navbar {
+    text-transform: uppercase;
+}
+
+
+.background {
+    background-image: url(../Images/Galeries/blockquote.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    
+}
+
+
+.background home-title {
+    background-image: url(../Images/Galeries/blockquote.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 80px;
+    border-radius: 10px;
+    
+}
