@@ -115,6 +115,8 @@ section {
 .navbar {
     text-transform: uppercase;
     background-color: #695d43;
+    
+
 }
 
 
@@ -127,28 +129,73 @@ section {
 }
 
 
-.background home-title {
+.home-title {
     background-image: url(../Images/Galeries/blockquote.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
     padding: 80px;
-    border-radius: 10px; 
+    border-radius: 10px;
+}
+
+
+
+.home-title h1 {
+    font-size: 30px;
+    color: #9c751d;
+}
+
+
+.home-title h1 span {
+    font-weight: 900;
 }
 
 
 .home-title p {
-    color: white;
-    background-position: center;
-    margin-top: 6%;
-    font-size: 50px;
-    text-transform: uppercase;
+    color: #f1f0f0;
 }
 
 
-.home-title h3 {
-    color: white;
-    font-size: 100%;
+
+/* Button */
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 1s, color 1s, border 1s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.btn-full {
+    background-color: white;
+    color: #9c751d;
+    margin-right: 15px;
+    margin-bottom: 100px;
+}
+
+
+.btn-ghost {
+    border: 1px solid #9c751d;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+
+.btn-full:hover {
+    background-color: #9c751d;
+    color: #fff;
+}
+
+
+.btn-ghost:hover {
+    background-color: #9c751d;
+    border: 1px solid #9c751d;
+    color: #fff;
 }
 
 
