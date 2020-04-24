@@ -1,0 +1,305 @@
+/* DOCUMENT INFORMATION
+        - Document: chocolat thème
+        - Version: 1.0.0
+        - Auteur : François
+
+*/
+
+/* COLORS
+        - defaut body text #eee
+        - h1            #9c751d
+        - h2            #9c751d
+        - h3            #242424
+
+        - Button
+        - Button : hover
+
+        - Icon          #9c751d
+
+        - Border
+
+*/
+
+/* FONTS 
+        - Default        LATO
+        - Subtitle       SANCHEZ
+
+*/
+
+/* CSS DIRECTORY
+        1. GLOBAL
+        2. HEADER
+        3. CHOCOLAT BLANC
+        4. CHOCOLAT AU LAIT
+        5. AVIS CLIENTS
+        6. CHOCOLAT NOIR
+        7. FOOTER
+
+
+*/
+
+
+/* 1. GLOBAL
+===================================== */
+
+
+html {
+    background-color: #fff;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lato', 'Arial', 'Sans-serif';
+    color: #9c751d;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 300;
+    word-spacing: 8px;
+}
+
+
+h1 {
+    color: #9c751d;
+}
+
+
+h2 {
+    color: #9c751d;
+    font-size: 250%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #9c751d;
+    width: 100px;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+h3 {
+    color: #242424;
+    font-size: 160%;
+}
+
+
+h4 {
+    margin-top: 10px;
+}
+
+
+p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+
+section {
+    padding: 30px 0 60px 0;
+}
+
+
+/* 2. HEADER
+===================================== */
+
+.navbar {
+    text-transform: uppercase;
+    background-color: #695d43;
+    
+
+}
+
+
+.background {
+    background-image: url(../Images/Galeries/blockquote.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+
+.home-title {
+    background-image: url(../Images/Galeries/blockquote.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 80px;
+    border-radius: 10px;
+}
+
+
+
+.home-title h1 {
+    font-size: 30px;
+    color: #9c751d;
+}
+
+
+.home-title h1 span {
+    font-weight: 900;
+}
+
+
+.home-title p {
+    color: #f1f0f0;
+}
+
+
+
+/* Button */
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 1s, color 1s, border 1s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.btn-full {
+    background-color: white;
+    color: #9c751d;
+    margin-right: 15px;
+    margin-bottom: 100px;
+}
+
+
+.btn-ghost {
+    border: 1px solid #9c751d;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+
+.btn-full:hover {
+    background-color: #9c751d;
+    color: #fff;
+}
+
+
+.btn-ghost:hover {
+    background-color: #9c751d;
+    border: 1px solid #9c751d;
+    color: #fff;
+}
+
+/* 7. PACKS
+===================================== */
+.background-packs p {
+    text-align: center;
+}
+
+
+.background-packs p strong {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #9c751d;
+    color: #9c751d;
+} 
+
+
+
+.pack {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+
+.pack h3 {
+    color: rgba(11, 11, 11, 0.93);
+    font-weight: 400;
+}
+
+
+.pack h4 {
+    font-size: 300%;
+    font-weight: 400;
+}
+
+
+.pack span {
+    font-weight: 100;
+    font-size: 30%;
+    position: relative;
+    top: -15px;
+    left: 2px;
+}
+
+
+.pack-gourmand {
+    background-color: #d4d4d4e0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+.pack-title {
+    padding: 10px 10px 0 10px;
+    border-bottom: 1px solid #929090;
+}
+
+
+.pack-title-gourmand {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    background-color: #230303;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.pack-content ul {
+    list-style: none;
+    padding: 20px;
+    font-weight: 450;
+    line-height: 35px;
+}
+
+
+.pack-content ul li i {
+    font-size: 90%;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+
+.pack-signup {
+    text-align: center;
+}
+
+
+.pack-signup:hover .btn-pack {
+    background-color: black;
+    color: white;
+}
+
+
+.btn-pack {
+    background-color: #9c751d;
+    color: white;
+    margin-bottom: 20px;
+}
